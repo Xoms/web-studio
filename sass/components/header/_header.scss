@@ -1,0 +1,14 @@
+.header {
+    border-bottom: 1px solid var(--nav-underline);
+
+}
+.header__content {
+    //display: none;
+
+    @media screen and (min-width: $tablet){
+        display: flex;    
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+    }
+}
