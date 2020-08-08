@@ -1,0 +1,26 @@
+.features__item {
+    width: 100%;
+    @media screen and (min-width: $tablet) {
+        @include elements-width(2);
+    }
+    
+
+    &:not(:last-child){
+        margin-right: 30px;
+    }
+    &-icon{
+        height: 70px;
+        width: 70px;
+        color: currentColor;
+    }
+    &-title{
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+    &-text{
+        font-family: "Roboto-Regular", sans-serif;
+        font-size: 14px;        
+        line-height: 1.71;
+        color:var(--secondary-text);
+    }
+}
