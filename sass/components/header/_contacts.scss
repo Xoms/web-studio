@@ -1,10 +1,14 @@
 .top-menu__contacts{
-    @media screen and (min-width: $tablet){ 
-        display: flex;
-        flex-direction: column;
-        justify-content: center;      
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    
+    @media screen and (min-width: $desktop){        
         margin-left: auto;
-    }
+    }  
+    
+
 
     @media screen and (min-width: $desktop){        
         flex-direction: row;

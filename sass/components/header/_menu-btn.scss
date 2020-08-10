@@ -14,10 +14,15 @@
 
     &:hover, &:focus {
         color:var(--accent);
+        outline: none;
     }
 }
 .top-menu-btn__icon{
+    
     width: 40px;
     height: 40px;
     fill: currentColor;
+    &:focus {
+        outline: none;
+    }
 }
