@@ -1,9 +1,17 @@
+.subscription-form{
+    @media screen and (min-width:$desktop){
+        margin-left: auto;
+    }
+}
 .subscription-form__controls{   
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
     position: relative;
+    @media screen and (min-width:$tablet){
+        width: 450px;
+    }
 
     @media screen and (min-width:$desktop){
         width: auto;
