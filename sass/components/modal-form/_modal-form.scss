@@ -1,12 +1,11 @@
 .modal-form{
     position: absolute;
-    top: 93px;
-    
+    top:93px;
     left:50%;
     transform: translateX(-50%);    
     padding: 40px;
-
     width: 100%;
+    overflow-y: auto;
 
     @media screen and (min-width:$mobile){
         width: 450px;
