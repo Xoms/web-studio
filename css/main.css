@@ -699,6 +699,9 @@ a:hover {
 }
 
 .top-menu__contacts-link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -736,8 +739,8 @@ a:hover {
 
 @media screen and (min-width: 768px) and (max-width: 1200px) {
   .icon--envelope {
-    width: 10px;
-    height: 14px;
+    width: 14px;
+    height: 10px;
   }
 }
 
