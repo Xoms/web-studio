@@ -1,0 +1,8 @@
+.activities {
+    display: none;
+
+    @media screen and (min-width: $desktop){
+        display: flex;
+        padding-bottom: 94px;
+    }
+}

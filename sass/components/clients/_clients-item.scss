@@ -1,0 +1,17 @@
+.clients__item {
+    @include elements-width(2);
+
+    &:not(:nth-last-child(-n + 2)){
+        margin-bottom: 30px;
+    }
+
+    &:nth-child(odd) {
+        margin-right: 30px;
+    }
+    @media screen and (min-width: $desktop){
+        @include elements-width(6);
+        &:not(:last-child){
+            margin-right: 30px;
+        }
+    }
+}
