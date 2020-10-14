@@ -8,6 +8,7 @@
 .license-agreement__label{
     display:flex;
     align-items: center;
+    font-family: "Roboto-Normal", sans-serif;
     font-size: 12px;
 
     @media screen and (min-width:$desktop){
@@ -23,7 +24,11 @@
     margin-right: 7px;
     width: 18px;
     height: 18px;
-    background-image: url("../images/icons/license-checkbox.svg");
+    background-image: url('../images/icons/license-checkbox-checked.svg'),
+    url("../images/icons/license-checkbox.svg");
+    ;
+    background-image:  url("../images/icons/license-checkbox.svg");
+    ;
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;  

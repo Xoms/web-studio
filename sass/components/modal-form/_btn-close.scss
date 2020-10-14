@@ -2,8 +2,8 @@
     position: absolute;
     top: 8px;
     right: 8px;
-    min-height: 30px;
-    min-width: 30px;
+    height: 30px;
+    width: 30px;
     display: flex;
     align-items: center; 
     justify-content: center;   
@@ -23,7 +23,8 @@
     }
 }
 .modal-form__icon-close {
-    height: 18px;
     width: 18px;
+    height: 18px;
     fill: currentColor;
+    display: block;
 }

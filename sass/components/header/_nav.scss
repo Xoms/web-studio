@@ -1,12 +1,4 @@
-.nav__list{
-    @media screen and (min-width: $tablet){
-        margin-left:81px;
-    }
 
-    @media screen and (min-width: $desktop){
-        margin-left:85px;
-    }
-}
 .nav__list-item{
     display: flex;
     justify-content: center;

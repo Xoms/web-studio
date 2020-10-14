@@ -5,6 +5,28 @@
     width:100%;
     height:100%;
     z-index:100;
-    overflow-y: auto;
+    // overflow-y: auto;
     background-color: rgba(0, 0, 0, 0.2);
+    transition: all .25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.is-hidden {
+    overflow: hidden;
+}
+.backdrop.is-hidden {
+    transform: translateY(-200%);
+    transition: all .5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.backdrop.is-hidden .backdrop__inner {
+    transform: scale(0) translateY(-200%);
+}
+
+.backdrop__inner {
+    position: fixed;
+    top:0;
+    left:0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+    transform: scale(1) translateY(0%);
+    transition: all .5s cubic-bezier(0.4, 0, 0.2, 1);
 }

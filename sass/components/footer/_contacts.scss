@@ -12,8 +12,13 @@
     margin-bottom: 9px;
 }
 .footer__address{
-    font-style: normal;          
+    font-style: normal;
  }
  .footer__contacts-link {
-    color: var(--footer-contacts);        
+    @extend %link;
+    display: block;
+    color: var(--footer-contacts);
+    &:not(:last-child){
+        margin-bottom: 9px;
+    }       
 }
